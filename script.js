@@ -1,6 +1,7 @@
 let origineArray = [1,'text', ['text'], [{name: 'origine'}], {func: function(){console.log('hello')}}];
 let origineArray2 = [1,'text', ['text'], [{name: 'origine'}], [{func: { isName: true}}]];
 let origineArray3 = [1,'text', ['text'], [{name: 'origine'}], [5, [5, [0]]]];
+let origineArray4 = [{ arr1: [0,1,3], arr2: ['a', 'c', 'z']}];
 
 function deepCloneArray (arr) {
     let result = [];
